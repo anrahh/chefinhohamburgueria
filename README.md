@@ -27,12 +27,3 @@ $ cd chefinhohamburgueria
 $ npm install
 $ npm run watch
 ```
-### Plugins
-Plugins Utilizados
-| Plugin | Page |
-| ------ | ------ |
-| Select2 | https://select2.org |
-| SweetAlert | https://sweetalert2.github.io |
-|Bootstrap CSS| https://getbootstrap.com/docs/4.3/getting-started/introduction |
-
-
