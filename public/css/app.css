@@ -1,0 +1,24 @@
+.page-error {
+  color: #505050;
+  font-weight: bold;
+}
+
+.page-error .error-code {
+  font-size: 80pt;
+}
+
+.page-error .error-description {
+  font-size: 40pt;
+}
+
+.checkbox label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn-modal {
+  text-transform: uppercase;
+}
+

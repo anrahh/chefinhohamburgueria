@@ -1,0 +1,27 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+.page-error {
+    .error-code{
+        font-size: 80pt;
+    }
+    .error-description{
+        font-size: 40pt;
+    }
+    color: #505050;
+    font-weight: bold;
+}
+
+.checkbox label{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-modal {
+    text-transform: uppercase;  
+}
