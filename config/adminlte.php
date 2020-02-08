@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'Hamburgueria',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>CH</b>Hamburgueria',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image-xl',
     'logo_img_xl' => null,
@@ -174,11 +174,6 @@ return [
 
     'menu' => [
         [
-            'text' => 'search',
-            'search' => false,
-            'topnav' => false,
-        ],
-        [
             'text' => 'blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
@@ -187,6 +182,26 @@ return [
             'text'        => 'Usuários',
             'url'         => 'm/users',
             'icon'        => 'fas fa-fw fa-user',
+        ],
+        [
+            'text'        => 'Produtos',
+            'url'         => '/m/produtos',
+            'icon'        => 'fas fa-hamburger',
+        ],
+        [
+            'text'        => 'Pedidos',
+            'url'         => '/m/pedidos',
+            'icon'        => 'fas fa-clipboard-list',
+        ],
+        [
+            'text'        => 'Clientes',
+            'url'         => '/m/clientes',
+            'icon'        => 'fas fa-fw fa-users',
+        ],
+        [
+            'text'        => 'Relatórios',
+            'url'         => '/m/relatorios',
+            'icon'        => 'far fa-file-pdf',
         ],
         ['header' => 'account_settings'],
         [
