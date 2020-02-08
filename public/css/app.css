@@ -1,4 +1,6 @@
 .page-error {
+  text-align: center;
+  font-size: Arial;
   color: #505050;
   font-weight: bold;
 }
