@@ -18,20 +18,16 @@
 
 @if (config('adminlte.use_route_url', false))
     @php( $login_url = $login_url ? route($login_url) : '' )
-    @php( $register_url = $register_url ? route($register_url) : '' )
-    @php( $password_reset_url = $password_reset_url ? route($password_reset_url) : '' )
     @php( $dashboard_url = $dashboard_url ? route($dashboard_url) : '' )
 @else
     @php( $login_url = $login_url ? url($login_url) : '' )
-    @php( $register_url = $register_url ? url($register_url) : '' )
-    @php( $password_reset_url = $password_reset_url ? url($password_reset_url) : '' )
     @php( $dashboard_url = $dashboard_url ? url($dashboard_url) : '' )
 @endif
 
 @section('body')
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ $dashboard_url }}">{!! config('adminlte.logo', '<b>Admin</b>LTE') !!}</a>
+            <img src="https://images.vexels.com/media/users/3/158443/isolated/lists/c18e72479aefde6c1b5ec0039c866410-silhueta-de-logotipo-de-hamburguer.png" alt="">
         </div>
         <div class="card">
             <div class="card-body login-card-body">
@@ -78,18 +74,6 @@
                         </div>
                     </div>
                 </form>
-                <p class="mt-2 mb-1">
-                    <a href="{{ $password_reset_url }}">
-                        {{ __('adminlte::adminlte.i_forgot_my_password') }}
-                    </a>
-                </p>
-                @if ($register_url)
-                    <p class="mb-0">
-                        <a href="{{ $register_url }}">
-                            {{ __('adminlte::adminlte.register_a_new_membership') }}
-                        </a>
-                    </p>
-                @endif
             </div>
         </div>
     </div>
