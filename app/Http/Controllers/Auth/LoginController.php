@@ -35,6 +35,7 @@ class LoginController extends Controller
      */
     public function __construct()
     {
+        \Log::info('alguém logou no sistema');
         $this->middleware('guest')->except('logout');
     }
 
